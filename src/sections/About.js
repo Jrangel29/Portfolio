@@ -23,34 +23,43 @@ const About = () => {
                     </Grid>
                     <Grid item container xs={12} md={6}>
                         <Grid item xs={12}>
-                            <p>Some of the technologies I've worked with</p>
+                            <p>Some of the main technologies I've worked with</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            HTML5
+                            <i class="devicon-html5-plain colored iconStyle"></i>
+                            <p>HTML5</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            CSS3
+                            <i class="devicon-css3-plain colored iconStyle"></i>
+                            <p>CSS3</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            Bootstrap
+                            <i class="devicon-bootstrap-plain colored iconStyle"></i>
+                            <p>Bootstrap</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            Javascript
+                            <i class="devicon-javascript-plain colored iconStyle"></i>
+                            <p>Javascript</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            React.JS
+                            <i class="devicon-react-original colored iconStyle"></i>
+                            <p>React.JS</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            Redux
+                            <i class="devicon-redux-original colored iconStyle"></i>
+                            <p>Redux</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            Express.JS
+                            <i class="devicon-express-original colored iconStyle"></i>
+                            <p>Express.JS</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            Firebase
+                            <i class="devicon-firebase-plain colored iconStyle"></i>
+                            <p>Firebase</p>
                         </Grid>
                         <Grid item xs={6} md={4}>
-                            MySQL
+                            <i class="devicon-mysql-plain colored iconStyle"></i>
+                            <p>MySQL</p>
                         </Grid>
                     </Grid>
                 </Grid>
