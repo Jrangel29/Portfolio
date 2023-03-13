@@ -7,7 +7,7 @@ import profile from '../images/picture.jpg';
 const About = () => {
     return(
         <Box sx={{width: '100vw'}}>
-            <Container>
+            <Container className='containerStyles'>
                 <h1 className='sectionTitle'>About Me</h1>
                 <Grid container spacing={3}>
                     <Grid item container xs={12} md={6}  className='gridHeights'>

@@ -9,7 +9,7 @@
 
 .sectionTitle{
     font-size: 2.2em;
-    margin: 2vh 0;
+    margin: 0 0 2vh 0;
     padding: 0;
 }
 
@@ -33,4 +33,8 @@
 
 .gridHeights{
     height: 100%;
+}
+
+.containerStyles{
+    margin: 4vh 0;
 }
