@@ -1,0 +1,31 @@
+.welcomeText{
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.nameText{
+    font-size: 6vw;
+    margin: 0;
+    padding: 0;
+}
+
+.bottomExplainer{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.contentAlignment {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .nameText{
+        font-size: 8vw;
+        margin: 0;
+        padding: 0;
+    }
+
+}
