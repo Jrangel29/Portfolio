@@ -1,8 +1,36 @@
 .profilePicture{
-    max-width: 20vw;
+    max-width: 80%;
     border-radius: 5px;
 }
 
 .iconStyle{
-    font-size: 3em;
+    font-size: 5em; /*4em for small screens*/
+}
+
+.sectionTitle{
+    font-size: 2.2em;
+    margin: 2vh 0;
+    padding: 0;
+}
+
+.sectionSubtitle{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 0 0 2vh 0;
+}
+
+.explanationText{
+    text-align: justify;
+    margin: 0;
+    line-height: 22px;
+}
+
+.textBreak{
+    display: block;
+    margin: 10px 0;
+    content: "";
+}
+
+.gridHeights{
+    height: 100%;
 }
