@@ -18,7 +18,6 @@ const Navbar = () => {
                 <Toolbar disableGutters>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', sm: 'flex' }, justifyContent: 'center'}}>
                         <Typography sx={{mx: 2}}>About</Typography>
-                        <Typography sx={{mx: 2}}>Experience</Typography>
                         <Typography sx={{mx: 2}}>Projects</Typography>
                         <Typography sx={{mx: 2}}>Contact</Typography>
                     </Box>
@@ -37,7 +36,7 @@ const Navbar = () => {
                             id="menu-appbar"
                             anchorEl={openMenu}
                             anchorOrigin={{
-                              vertical: 'bottom',
+                              vertical: 'top',
                               horizontal: 'left',
                             }}
                             keepMounted
@@ -51,10 +50,9 @@ const Navbar = () => {
                               display: { xs: 'block', sm: 'none' },
                             }}
                         >
-                            <Typography sx={{my: 2, mx: 2}} onClick={handleCloseNavMenu}>Experience</Typography>
+                            <Typography sx={{my: 2, mx: 2}} onClick={handleCloseNavMenu}>About</Typography>
                             <Typography sx={{my: 2, mx: 2}} onClick={handleCloseNavMenu}>Projects</Typography>
                             <Typography sx={{my: 2, mx: 2}} onClick={handleCloseNavMenu}>Contact</Typography>
-                            <Typography sx={{my: 2, mx: 2}} onClick={handleCloseNavMenu}>About</Typography>
                         </Menu>
                     </Box>
                 </Toolbar>

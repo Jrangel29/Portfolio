@@ -7,9 +7,6 @@ const About_Info = () => {
     return(
         <Grid container spacing={3}>
             <Grid item container xs={12} md={6} className='gridHeights'>
-                <Grid item xs={12}>
-                    <p className='sectionSubtitle'>Who am I</p>
-                </Grid>
                 <Grid item xs={12} md={6}>
                     <img src={profile} className='profilePicture'/>
                 </Grid>
@@ -19,6 +16,12 @@ const About_Info = () => {
                         <br className='textBreak'/>
                         I have a bachelor's degree in New Technologies of Communication from the University of Aveiro and I've recently finished my master's degree in Communication and Multimedia at the same university.
                     </p>
+                </Grid>
+                <Grid item xs={12}>
+                    <p className='explanationText'>My work experience</p>
+                    <p className='explanationText'>Research Grant - University of Aveiro</p>
+                    <p className='explanationText'>(March 2022 - January 2023)</p>
+                    <p className='explanationText'>At this research grant, I got the opportunity to work in the OverTV project, which you can find in the projects section.</p>
                 </Grid>
             </Grid>
             <Grid item container xs={12} md={6} className='gridHeights'>
