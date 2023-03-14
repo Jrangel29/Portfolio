@@ -38,3 +38,26 @@
 .containerStyles{
     margin: 4vh 0;
 }
+
+.experienceTitle{
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    text-align: left;
+}
+
+.experienceName{
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.experienceTime{
+    font-size: 0.9em;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: left;
+}

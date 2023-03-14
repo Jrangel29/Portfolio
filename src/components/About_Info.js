@@ -18,9 +18,9 @@ const About_Info = () => {
                     </p>
                 </Grid>
                 <Grid item xs={12}>
-                    <p className='explanationText'>My work experience</p>
-                    <p className='explanationText'>Research Grant - University of Aveiro</p>
-                    <p className='explanationText'>(March 2022 - January 2023)</p>
+                    <p className='experienceTitle'>My work experience</p>
+                    <p className='experienceName'>Research Grant - University of Aveiro</p>
+                    <p className='experienceTime'>(March 2022 - January 2023)</p>
                     <p className='explanationText'>At this research grant, I got the opportunity to work in the OverTV project, which you can find in the projects section.</p>
                 </Grid>
             </Grid>
