@@ -6,11 +6,11 @@ import profile from '../images/picture.jpg';
 
 const About = () => {
     return(
-        <Box sx={{width: '100vw'}}>
+        <Box className='boxStyling'>
             <Container className='containerStyles'>
                 <h1 className='sectionTitle'>About Me</h1>
                 <Grid container spacing={3}>
-                    <Grid item container xs={12} md={6}  className='gridHeights'>
+                    <Grid item container xs={12} md={6} className='gridHeights'>
                         <Grid item xs={12}>
                             <p className='sectionSubtitle'>Who am I</p>
                         </Grid>
