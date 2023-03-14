@@ -6,9 +6,9 @@ import img_asomar from '../images/projects/project1_2.jpg'
 
 const Project_List = () => {
     return(
-        <Grid container spacing={3} alignItems='stretch' justifyContent='center'>
-            <Grid item xs={12} sm={6} md={4} lg={3}>
-                <Card>
+        <Grid container spacing={2} justifyContent='center'>
+            <Grid item xs={12} sm={6} md={4} lg={3} className='gridCard'>
+                <Card className='cardAlignment'>
                     <CardMedia
                         component='img'
                         alt='project1'
@@ -23,13 +23,13 @@ const Project_List = () => {
                             This project was developed with the goal of promoting sustainability by allowing users to share rides to nature-friendly related events.
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions className='buttonBottom'>
                         <Button size='small'>See more</Button>
                     </CardActions>
                 </Card>
             </Grid>
-            <Grid item xs={12} sm={6} md={4} lg={3}>
-                <Card>
+            <Grid item xs={12} sm={6} md={4} lg={3} className='gridCard'>
+                <Card className='cardAlignment'>
                     <CardMedia
                         component='img'
                         alt='project1'
@@ -44,13 +44,13 @@ const Project_List = () => {
                             This was a platform created to give creative individuals a place to share their projects and availability to work, as well as allow companies to share jobs offers.
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions className='buttonBottom'>
                         <Button size='small'>See more</Button>
                     </CardActions>
                 </Card>
             </Grid>
-            <Grid item xs={12} sm={6} md={4} lg={3}>
-                <Card>
+            <Grid item xs={12} sm={6} md={4} lg={3} className='gridCard'>
+                <Card className='cardAlignment'>
                     <CardMedia
                         component='img'
                         alt='project1'
@@ -65,13 +65,13 @@ const Project_List = () => {
                             This app was created to allow users to map abandonned buildings and share ideas on how they could be rehabilitated.
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions className='buttonBottom'>
                         <Button size='small'>See more</Button>
                     </CardActions>
                 </Card>
             </Grid>
-            <Grid item xs={12} sm={6} md={4} lg={3}>
-                <Card>
+            <Grid item xs={12} sm={6} md={4} lg={3} className='gridCard'>
+                <Card className='cardAlignment'>
                     <CardMedia
                         component='img'
                         alt='project1'
@@ -86,7 +86,7 @@ const Project_List = () => {
                             A back-office platform focused on the creation and schedule of notifications to be sent to the TV ecosystem.
                         </Typography>
                     </CardContent>
-                    <CardActions>
+                    <CardActions className='buttonBottom'>
                         <Button size='small'>See more</Button>
                     </CardActions>
                 </Card>

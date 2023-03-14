@@ -11,3 +11,16 @@
 .cardContentAlignment{
     text-align: left;
 }
+
+.gridCard{
+    display: flex;
+}
+
+.cardAlignment{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonBottom{
+    margin-top: auto;
+}
