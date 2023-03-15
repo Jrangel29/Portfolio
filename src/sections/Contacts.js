@@ -5,7 +5,7 @@ import { Grid } from '@mui/material';
 
 const Contacts = () => {
     return(
-        <Box className='boxStyling' id='ContactSection'>
+        <Box className='boxStyling' id='contactSection'>
             <Container className='containerStyles'>
                 <h1 className='sectionTitle'>Contacts</h1>
                 <Grid container spacing={1} justifyContent='center'>

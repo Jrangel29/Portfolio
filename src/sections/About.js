@@ -5,7 +5,7 @@ import About_Info from '../components/About_Info';
 
 const About = () => {
     return(
-        <Box className='boxStyling'>
+        <Box className='boxStyling' id='aboutSection'>
             <Container className='containerStyles'>
                 <h1 className='sectionTitle'>About Me</h1>
                 <About_Info/>

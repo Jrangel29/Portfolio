@@ -9,10 +9,11 @@ import Contacts from '../sections/Contacts';
 function Homepage() {
   return (
     <div className="App">
-      <Header/>
-      <About/>
-      <Projects/>
-      <Contacts/>
+        <Navbar/>
+        <Header/>
+        <About/>
+        <Projects/>
+        <Contacts/>
     </div>
   );
 }

@@ -6,7 +6,7 @@ import Project_List from '../components/Project_List';
 
 const Projects = () => {
     return(
-        <Box className='boxStyling' sx={{backgroundColor: 'lightgray'}}>
+        <Box className='boxStyling' id='projectSection' sx={{backgroundColor: 'lightgray'}}>
             <Container className='containerStyles'>
                 <h1 className='sectionTitle'>Projects</h1>
                 <Project_List/>
