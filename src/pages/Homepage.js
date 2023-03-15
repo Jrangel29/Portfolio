@@ -1,0 +1,20 @@
+import '../App.css';
+import Navbar from '../sections/Navbar';
+import Header from '../sections/Header';
+import About from '../sections/About';
+import Projects from '../sections/Projects';
+import Contacts from '../sections/Contacts';
+
+
+function Homepage() {
+  return (
+    <div className="App">
+      <Header/>
+      <About/>
+      <Projects/>
+      <Contacts/>
+    </div>
+  );
+}
+
+export default Homepage;
